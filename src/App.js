@@ -145,8 +145,13 @@ function App() {
           </div>
         </section>
       </Form>
-      <hr />
-      <section className="row">
+      <div className="row white-bg">
+        <div className="col">
+          <br />
+          <h6>Expenses And Items</h6>
+        </div>
+      </div>
+      <section className="row white-bg">
         <div className="col">
         <Table striped bordered hover size="sm">
           <thead>

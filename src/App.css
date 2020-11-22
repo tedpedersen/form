@@ -4,6 +4,9 @@ body{
   font-family: 'Roboto', sans-serif;
   background-color: #eee;
 }
+.white-bg{
+  background-color: #fff;
+}
 .main{
   margin-top: 15px;
 }
@@ -17,12 +20,13 @@ label {
     margin-bottom: 0.1rem;
     font-size: 12px;
     font-weight: bold;
-    color: #333;
+
     text-transform: uppercase;
 }
 @media only screen and (max-width: 750px) {
 
 }
+
 table{
   font-size: 12px;
 }
