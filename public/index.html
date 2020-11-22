@@ -19,31 +19,5 @@
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
   </body>
-  <script>
-    // handle the form
-    $(document).ready(function() {  
-      $("#vendor").change(function() {
-        var theVal1 = $( "#vendor" ).val();
-        console.log("Select Custom Form Value = " + theVal1);
-      });
-      $("#vendor2").change(function() {
-        var theVal2 = $( "#vendor2" ).val();
-        console.log("Select Vendor Value = " + theVal2);
-      });
-      $("#amount").change(function() {
-        var theVal3 = $( "#amount" ).val();
-        console.log("Amount Value = " + theVal3);
-      });
-      $("#exchange").change(function() {
-        var theVal4 = $( "#exchange" ).val();
-        console.log("Exchange Rate Value = " + theVal4);
-      });
-      $("#tax").change(function() {
-        var theVal5 = $( "#tax" ).val();
-        console.log("Tax Value = " + theVal5);
-      });
-    });
-
-
-  </script>
+  <script src="form.js"></script>
 </html>

@@ -115,10 +115,9 @@ function App() {
               <Form.Label>Posting Period *</Form.Label>
               <Form.Control size="sm" as="select" id="posting">
                 <option value="1">June 17</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
+                <option value="2">June 30</option>
+                <option value="3">July 15</option>
+                <option value="4">July 30</option>
               </Form.Control>
             </Form.Group>
             <Form.Group>
@@ -129,10 +128,8 @@ function App() {
               <Form.Label>Approval Status</Form.Label>
               <Form.Control size="sm" as="select" id="approval">
                 <option value="1">Pending Approval</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
+                <option value="2">Approved</option>
+                <option value="3">Not Approved</option>
               </Form.Control>
             </Form.Group>
             <Form.Group >
